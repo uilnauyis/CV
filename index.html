@@ -23,7 +23,7 @@
 
     @media screen {
       #containter {
-        width: 680px;
+        width: 900px;
       }
     }
 
@@ -200,7 +200,7 @@
       <div class="section">
         <h2>Right to work in New Zealand</h2>
         <div class="section_sub">
-          I am holding a New Zealand resident visa 
+          I am holding a New Zealand resident visa
         </div>
       </div>
     </div>
@@ -209,11 +209,13 @@
         <h2>Skills Summary</h2>
         <div class="section_sub">
           <ul>
-            <li><b><em>Programming languages</em></b>: JavaScript, C#, Java, Python3, C++, R</li>
-            <li><b><em>Technology stack</em></b>: .NET Framework/.NET Core, React, Node.Js, Express, PostgreSQL,
+            <li><b><em>Programming languages</em></b>: JavaScript / TypeScript, C#, Java, Python3, C++, R</li>
+            <li><b><em>Technology stack</em></b>: Node.Js, .NET Framework/.NET Core, React, Express, PostgreSQL,
               MongoDB</li>
-            <li><b><em>General technical skills and tools</em></b>: Docker, version control (Git, Mercurial), CI/CD
-              pipelines (TeamCity), Jira</li>
+            <li><b><em>General technical skills and tools</em></b>: Docker,
+              automation tests (XUnit for C# and Mocha for Node.js), version control (Git, Mercurial), CI/CD
+              pipelines (TeamCity), metrics and logging with integration of Elastic Log and Grafana, Jira, bash scripting, 
+              cloud computing with DigitalOcean or AWS</li>
           </ul>
         </div>
       </div>
@@ -222,29 +224,31 @@
         <div class="section_sub">
           <span class="activity_header"><strong>Software Engineer</strong></span> <span class="location">Verizon
             Connect, Christchurch</span><br />
-          <span class="activity_header activity_header_sub activity_header_blank"></span> <span class="date">08/17
+          <span class="activity_header activity_header_sub activity_header_blank"></span> <span class="date">2017
             &ndash;
-            02/19</span>
+            2019</span>
           <ul>
-            <li>Worked in Report Infrastructure team as a full-stack software engineer.</li>
+            <li>Worked in Report Infrastructure team as a full-stack software engineer. </li>
+            <li>Developed and maintained Recommendation Service, a Node.Js web service based on Loopback framework, that
+              fetches user-specific recommendation provided by BI team from PostgreSQL database and feeds to users. </li>
+            <li>Developed and maintained Survey Service, a Node.Js web service based on Loopback framework, that
+              sends surveys and collects feedback from users.
+            </li>
             <li>Developed Report Monitor, which is a web app based on ASP.NET Web API for
               monitoring and easily manipulating the recommendation infrastructure. Built the
               UI with AngularJs and modernized it with React and Redux.</li>
-            <li>Maintained and developed Recommendation Service, a Node.Js web service based on Loopback framework, that
-              fetches user-specific recommendation from PostgreSQL database and feeds to users. </li>
-            <li>Maintained and developed Survey Service, a Node.Js web service based on Loopback framework, that
-              sends surveys and collects feedback from users.
-            </li>
-            <li>Configured build pipelines with bash scripting. Wrote SQL functions and maintained SQL databases in development environment.
+            <li>Configured Teamcity build pipelines with bash scripting for development and test environment. Wrote SQL
+              functions and maintained SQL databases in development environment.
           </ul>
         </div>
         <div class="section_sub">
-          <span class="activity_header"><strong>(Part-time) Teaching Assistant / Graduate Teaching Assistant</strong></span> <span
-            class="location">The University of Auckland, Auckland</span><br />
-          <span class="activity_header activity_header_sub activity_header_blank"></span> <span class="date">03/17
-            &ndash; 07/17, 07/19 &ndash; 11/19, 01/20 &ndash; now</span>
+          <span class="activity_header"><strong>(Part-time) Teaching Assistant / Graduate Teaching
+              Assistant</strong></span> <span class="location">The University of Auckland, Auckland</span><br />
+          <span class="activity_header activity_header_sub activity_header_blank"></span> <span class="date">2017, 2019
+            &ndash; now</span>
           <ul>
-            <li>Tutor for COMPSCI120: Mathematics for Computer Science, COMPSCI110: Introduction to Computer Systems </li>
+            <li>Tutor for COMPSCI120: Mathematics for Computer Science, COMPSCI110: Introduction to Computer Systems
+            </li>
             <li>Lab demonstrator and assignment grader</li>
           </ul>
         </div>
@@ -254,9 +258,11 @@
         <div class="section_sub">
           <span class="activity_header"><strong>The University of Auckland</strong></span><span
             class="location">Auckland, New Zealand</span><br />
-          <span class="activity_header activity_header_sub"><b>Bachelor of Science (Honours) in Computer Science with First Class Honours, GPA: 7/9</b></span>
-          <span class="date">03/19 &ndash; 02/20</span>
+          <span class="activity_header activity_header_sub"><b>Bachelor of Science in Computer Science
+              (Honours)</b></span>
+          <span class="date">2019 &ndash; 2020 (Eligible to graduate)</span>
           <ul>
+            <li>Achievement: First Class Honours, 7 out of 9 GPA (A-)</li>
             <li>Courseswork: web and mobile computing, parallel and distributed computing, database systems, artificial
               intelligence, R programming for statistics</li>
             <li>Dissertation topic: Graph minor embeddings for D-wave quantum processors
@@ -270,10 +276,10 @@
         <div class="section_sub">
           <span class="activity_header"><strong>The University of Auckland</strong></span><span
             class="location">Auckland, New Zealand</span><br />
-          <span class="activity_header activity_header_sub">Bachelor of Science in Computer Science,
-            GPA: 7.333/9</span>
-          <span class="date">03/15 &ndash; 07/17</span>
+          <span class="activity_header activity_header_sub">Bachelor of Science in Computer Science</span>
+          <span class="date">2015 &ndash; 2017</span>
           <ul>
+            <li>Achievement: 7.333 out of 9 GPA (A-)</li>
             <li>Courseswork: algorithms and data structures, object-oriented programming, operating systems</li>
           </ul>
         </div>
@@ -281,7 +287,7 @@
           <span class="activity_header"><strong>Zhengzhou University</strong></span><span class="location">Zhengzhou,
             China</span><br />
           <span class="activity_header activity_header_sub">Majored in Material Science and Engineering</span>
-          <span class="date">09/13 &ndash; 01/15</span>
+          <span class="date">2013 &ndash; 2015</span>
         </div>
       </div>
       <div class="section">
@@ -289,23 +295,17 @@
         <div class="flex-grid-thirds section_sub">
           <div class="col">
             <p><b>Vladislav Stepanov</b></p>
+            <p>My former teamlead at Verizon Connect
             <p>Lead software developer at TSG</p>
             <p>stepanov.vlds@gmail.com</p>
           </div>
           <div class="col">
             <p><b>Rui Guimarães
               </b></p>
+            <p>My former manager at Verizon Connect</p>
             <p>Software Development Manager at Verizon Connect</p>
             <p>rui.guimaraes@gmail.com</p>
           </div>
-        </div>
-        <div class="flex-grid-thirds section_sub">
-          <div class="col">
-              <p><b>Dr Radu Nicolescu
-                </b></p>
-              <p>Senior Lecturer at the University of Auckland</p>
-              <p>r.nicolescu@auckland.ac.nz</p>
-            </div>
         </div>
       </div>
     </div>
